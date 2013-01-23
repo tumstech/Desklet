@@ -280,10 +280,8 @@ var JQD = (function($, window, document, undefined) {
         });
       },
       wallpaper: function() {
-        // Add wallpaper last, to prevent blocking.
-        if ($('#desktop').length) {
-          $('body').prepend('<img id="wallpaper" class="abs" src="wallpaper.jpg" />');
-        }
+      // Wallpaper Function Moved!
+  
       }
     },
     util: {

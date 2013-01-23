@@ -13,6 +13,8 @@ body {
 body {
   background: #222;
   font: 12px/1 'Lucida Grande', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  background:url(../images/wallpaper.jpg);
+  
 }
 
 a {
@@ -32,6 +34,7 @@ li {
   left: auto;
   right: auto;
   bottom: auto;
+  color:#000;
 }
 
 .align_center {
