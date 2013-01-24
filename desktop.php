@@ -1,3 +1,7 @@
+<?
+	include "auth_functions.php";
+	chk_login();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
