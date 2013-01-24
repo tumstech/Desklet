@@ -14,3 +14,9 @@ Features
 - Web app capable with web-app support codes
 - Bundled utilities (not fully implemented)
 - More features are coming soon.
+
+=======
+
+Default System username/password : default/rainbow
+
+The default user is removable by adding a new user, then deleting the default user from the database list.
