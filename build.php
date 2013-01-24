@@ -12,7 +12,7 @@ $system_uvid="00001-00011-32100-00127"; // Universal Version IDentifier
 /* Development mode hardswitches. Use this for dev purposes only! */
 $system_devmodeenabled="1"; // Is this still in development? turn on dev mode!
 $system_buildstatus="1"; // Build Code Status (0 nightly, 1 alpha, 2 beta, 3 preview, 4 release)
-$system_debugmodeenabled="0";
+$system_debugmodeenabled="0"; // Turn on debug mode for web apps? (not implemented yet)
 
 /* ================================================ */
 
@@ -22,7 +22,18 @@ It is reccommended to turn these features off in production environment.
 */
 
 $OSDebug_debugmodeenabled="0";
+
+/* 
+enable kernel terminal
+This option enables the Desklet system to directly communicate with the server's shell.
+It is recommended to turn it off for production environments, as this may pose security threat.
+
+Note that the code for this part may be detected as a virus, but it's not. It's just a PHP Shell, with login and security.
+
+*/
 $OSDebug_enablekernelterminal="0";
+
+/* enable or disable PHP Info window */
 $OSDebug_enablephpinfowindow="0";
 
 
