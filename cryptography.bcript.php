@@ -1,6 +1,13 @@
 <?php
 
-/* Basic Encryption using built in keys. Sorry, but this code needs to be encrypted for system security. */
+/* 
+Basic Encryption using built in keys. Sorry, but this code needs to be encrypted for system security.
+This is about serious encryption and decryption!
+
+This file may change from version to version. However, the call function and the inputs needed will be the same.
+80% of the cause for changing this file is that the built-in encryption keys needs to be updated regularly.
+
+*/
 
 /* There are two functions available in this code :
 
