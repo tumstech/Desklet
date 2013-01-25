@@ -8,6 +8,7 @@ $system_humanreadibleversion="0.1 Alpha"; // Version in the about box
 $system_buildversion="127"; // Build Version
 $system_servercode="183774773009173784638100937"; // Code for the server
 $system_uvid="00001-00011-32100-00127"; // Universal Version IDentifier
+$DeskletFusionEnabled="1"; //Enable Desklet Fusion Features
 
 /* Development mode hardswitches. Use this for dev purposes only! */
 $system_devmodeenabled="1"; // Is this still in development? turn on dev mode!
