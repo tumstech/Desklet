@@ -10,7 +10,7 @@ $logout_redirect = "index.php";
 /* Package info */
 
 $login_package_type="DesktopLogin";
-$login_package_classification="Security"
+$login_package_classification="Security";
 
 /* 
 
