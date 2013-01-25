@@ -12,6 +12,7 @@ Features
 
 - Desktop-style interface and animations
 - Web app capable with web-app support codes
+- User management system (Login/Security system)
 - Bundled utilities (not fully implemented)
 - More features are coming soon.
 
