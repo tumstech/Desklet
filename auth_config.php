@@ -16,7 +16,7 @@ $login_package_classification="Security";
 
 PackageInfo for devs
 
-type : securityModule/login
+type : SecurityModule/login
 
 */
 
