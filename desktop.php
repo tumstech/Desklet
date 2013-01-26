@@ -661,7 +661,7 @@
             From here, you can add a new user.
           </div>
           <div class="window_main">
-           <iframe width="100%" height="100%" frameborder="0" src="security.user.add.php"></iframe>
+           <iframe width="100%" height="100%" frameborder="0" src="security.user.add.php" scrolling="no"></iframe>
           </div>
         </div>
         <div class="abs window_bottom">
