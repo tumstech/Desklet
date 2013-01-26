@@ -986,7 +986,7 @@
         <a class="menu_trigger" href="#">Cloud</a>
         <ul class="menu">
           <li>
-            <a href="#">Desklet Web Desktop</a>
+            <a href="AuthorizationService.logout.php">Log Out</a>
           </li>
 </ul>
       </li>
