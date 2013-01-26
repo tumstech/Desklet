@@ -40,9 +40,9 @@
       <img src="images/icons/icon_32_disc.png" />
       Audio CD
     </a>
-    <a class="abs icon" style="left:20px;top:260px;" href="#icon_dock_network">
+    <a class="abs icon" style="left:20px;top:260px;" href="#icon_dock_usermgmt">
       <img src="images/icons/icon_32_network.png" />
-      Network
+      User Management
     </a>
     <div id="window_computer" class="abs window">
       <div class="abs window_inner">
@@ -638,7 +638,7 @@
       </div>
       <span class="abs ui-resizable-handle ui-resizable-se"></span>
     </div>
-    <div id="window_network" class="abs window">
+    <div id="window_usermgmt" class="abs window">
       <div class="abs window_inner">
         <div class="window_top">
           <span class="float_left">
@@ -648,7 +648,7 @@
           <span class="float_right">
             <a href="#" class="window_min"></a>
             <a href="#" class="window_resize"></a>
-            <a href="#icon_dock_network" class="window_close"></a>
+            <a href="#icon_dock_usermgmt" class="window_close"></a>
           </span>
         </div>
         <div class="abs window_content">
@@ -1021,8 +1021,8 @@
           Audio CD
         </a>
       </li>
-      <li id="icon_dock_network">
-        <a href="#window_network">
+      <li id="icon_dock_usermgmt">
+        <a href="#window_usermgmt">
           <img src="images/icons/icon_22_network.png" />
           Network
         </a>
