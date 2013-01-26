@@ -69,20 +69,6 @@
         </dl>
       </div>
       
-      <div class="info-aapl">
-        <h4>AAPL</h4>
-        <ul>
-          <li><span class="orange" style="height: 37.5%"></span></li>
-          <li><span class="orange" style="height: 47.5%"></span></li>
-          <li><span class="orange" style="height: 70%"></span></li>
-          <li><span class="orange" style="height: 85%"></span></li>
-          <li><span class="orange" style="height: 40%"></span></li>
-          <li><span class="green" style="height: 75%"></span></li>
-          <li><span class="green" style="height: 50%"></span></li>
-          <li><span class="green" style="height: 15%"></span></li>
-          <li><span class="green" style="height: 25%"></span></li>
-        </ul>
-      </div>
       
       <div class="yearly-change">
         <h4>Yearly Change</h4>
