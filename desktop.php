@@ -983,7 +983,10 @@
     <span class="float_right" id="clock"></span>
     <ul>
       <li>
-        <a class="menu_trigger" href="#">Cloud</a>
+        <a class="menu_trigger" href="#"><?php
+        $current_username=$_SESSION["AuthorizationService_username"];
+		echo($current_username);
+		?></a>
         <ul class="menu">
           <li>
             <a href="AuthorizationService.logout.php" target="_self">Log Out</a>
