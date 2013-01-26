@@ -657,8 +657,8 @@
         </div>
         <div class="abs window_content">
           <div class="window_aside">
-            Welcome to the User Management window. <br />
-            From here, you can add a new user.<br /><br />
+            Welcome to the User Management window. <br /><br />
+            From here, you can add a new user.<br /><br /><br />
             <script type="text/javascript">
 <!--
 if (document.getElementById) {
