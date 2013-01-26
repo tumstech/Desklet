@@ -988,8 +988,11 @@
 		echo($current_username);
 		?></a>
         <ul class="menu">
+        <li>
+            <a href="#">Account Preferences</a>
+          </li>
           <li>
-            <a href="AuthorizationService.logout.php" target="_self">Log Out</a>
+            <a href="AuthorizationService.logout.php" target="_parent">Log Out</a>
           </li>
 </ul>
       </li>
