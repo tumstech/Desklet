@@ -56,7 +56,7 @@
 		} else if (file_exists($filename) && $register_user == "1") {
 			
 			fwrite($handler,$_POST["AuthorizationService_usr"]."\t".md5($_POST["AuthorizationService_pwd"])."\r\n");
-			echo "<center><b><font face=\"MS Sans Serif\" color=\"#008000\">การสมัครสมาชิกเสร็จเรียบร้อยแล้ว</font></b><br><br><font face=\"MS Sans Serif\"><a href=\"login.php\">LOGIN เข้าสู่ระบบ</a></font></center>";
+			echo "<center><b><font face=\"MS Sans Serif\" color=\"#008000\">User addded successfully</font></b><br><br><font face=\"MS Sans Serif\"></font></center>";
 			
 		} else {
 		
