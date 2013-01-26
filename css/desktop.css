@@ -534,6 +534,14 @@ th.shrink {
 /* Widgets
 ----------------------------------------------------------------------------------------------------*/
 
+.widget_positioner {
+	position:fixed;
+	right:10px;
+	top:40px;
+	
+	
+}
+
 .widget_container {
   width: 283px;
   margin: 0 auto;
