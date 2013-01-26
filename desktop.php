@@ -16,6 +16,12 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default" />
 <meta name="viewport" content="user-scalable=no, width=device-width" />
 <!-- end iOS web app specifics -->
+<!-- Script loads -->
+<script src="js/jquery.js"></script>
+<script src="js/jquery.ui.js"></script>
+<script src="js/highcharts.js"></script>
+
+<!-- end script loads -->
 <!-- No Window Moving!-->
 <script>
  function PageMove(event) {
@@ -733,23 +739,7 @@ document.getElementById('reload').onclick = function () {usermgmtframe.location.
     </ul>
 </div>
 </div>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
-<script>
-  !window.jQuery && document.write(unescape('%3Cscript src="assets/js/jquery.js"%3E%3C/script%3E'));
-  !window.jQuery.ui && document.write(unescape('%3Cscript src="assets/js/jquery.ui.js"%3E%3C/script%3E'));
-</script>
-<script src="js/jquery.desktop.js"></script>
-<script>
-  var _gaq = [['_setAccount', 'UA-166674-8'], ['_trackPageview']];
 
-  (function(d, t) {
-    var g = d.createElement(t),
-    s = d.getElementsByTagName(t)[0];
-    g.async = true;
-    g.src = '//www.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g, s);
-  })(this.document, 'script');
-</script>
+<script src="js/jquery.desktop.js"></script>
 </body>
 </html>
