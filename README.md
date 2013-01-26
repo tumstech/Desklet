@@ -3,7 +3,7 @@ Desklet
 
 Desktop Interface Web Application for Tablets.
 
-Desklet is a HTML5/CSS3/JavaScript and PHP based web desktop made for iOS-based Tablets
+Desklet is a HTML5/CSS3/JavaScript and PHP based web desktop made for Tablets, and Desktop PCs too.
 
 
 =======
