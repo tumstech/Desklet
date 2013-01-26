@@ -20,7 +20,6 @@
 <script src="js/jquery.js"></script>
 <script src="js/jquery.ui.js"></script>
 <script src="js/highcharts.js"></script>
-<script src="widgets/StockMock.js"></script>
 
 <!-- end script loads -->
 <!-- No Window Moving!-->
