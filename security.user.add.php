@@ -67,8 +67,7 @@
 	} else {	
 	
 ?>
-<p align="center"><u><b><font face="MS Sans Serif" size="5" color="#FF0000">
-Add User</font></b></u></p>
+<p align="center"><center><b><h1>Add a User</h1></b></center></p>
 <p align="center"><font face="MS Sans Serif" size="2" color="#800000">Please fill up the form below</font></p>
 <center>
 <form name="form1" method="post" action="">
@@ -95,7 +94,6 @@ Add User</font></b></u></p>
   </table>
 </form>
 </center>
-<hr color="#800080" width="75%">
 <?
 }
 ?>
