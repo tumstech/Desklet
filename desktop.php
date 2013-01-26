@@ -658,10 +658,18 @@
         <div class="abs window_content">
           <div class="window_aside">
             Welcome to the User Management window. <br />
-            From here, you can add a new user.
+            From here, you can add a new user.<br /><br />
+            <script type="text/javascript">
+<!--
+if (document.getElementById) {
+document.write('<button id="reload">Refresh</button>')
+document.getElementById('reload').onclick = function () {usermgmtframe.location.reload(1)}
+}
+// -->
+</script>
           </div>
           <div class="window_main">
-           <iframe width="100%" height="100%" frameborder="0" src="security.user.add.php" scrolling="no"></iframe>
+           <iframe width="100%" height="100%" frameborder="0" name="usermgmtframe" id="usermgmtframe" src="security.user.add.php" scrolling="no"></iframe>
           </div>
         </div>
         <div class="abs window_bottom">
