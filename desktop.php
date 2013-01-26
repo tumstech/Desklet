@@ -37,51 +37,6 @@
 </head>
 <body ontouchmove="PageMove(event);">
 
-<!-- Widget Layer -->
-<div class="widget_positioner">
-<div class="widget_container">
-  <div class="widget">
-    
-    <div class="section section-graph">
-      <div class="graph-info">
-        <i class="graph-arrow"></i>
-        <span class="graph-info-big">634.39</span>
-        <span class="graph-info-small">+2.18 (3.71%)</span>
-      </div>
-      <div id="graph"></div>
-    </div>
-    
-    <div class="section section-info">
-      <span class="info-time">Today 2:25 PM</span>
-      <h3 class="info-title">Salt Lake City, Utah</h3>
-      
-      <div class="info-block">
-        <dl>
-          <dt>13.5 M</dt>
-          <dd>Shares Traded</dd>
-        </dl>
-      </div>
-      
-      <div class="info-block last">
-        <dl>
-          <dt>28.44</dt>
-          <dd>Market Cap</dd>
-        </dl>
-      </div>
-      
-      
-      <div class="yearly-change">
-        <h4>Yearly Change</h4>
-        <span><em>+</em> 127.01</span>
-      </div>
-    </div>
-    <div class="section"></div>
-  </div>
-</div>
-</div>
-
-
-<!-- End Widget Layer -->
 
 <div class="abs" id="wrapper">
   <div class="abs" id="desktop">
