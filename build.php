@@ -1,5 +1,10 @@
 <?php
 
+/* User-level configurations */
+
+$frontend_systemname="Cloud's PC"; // Typically the PC/System name
+$frontend_systemtype="desktop.cloud"; // System Type (desktop.cloud, desktop.local, etc.)
+
 /* Build Information file for Desklet */
 
 $system_codename="Skycloud"; // Release codename
