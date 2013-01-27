@@ -46,7 +46,9 @@ if (isset($_POST["AuthorizationService_Submit"])) {
 		
 		if ($logged_in != 1) { // IF USER IS NOT LOGGED IN
 			
-			echo "<center><font face=\"MS Sans Serif\"><font color=\"#000\"><b>Oh oh... an error occured!</b></font><br><br><a href=\"".$_SERVER['HTTP_REFERER']."\">Back</a></font></center>";
+		// redirect the user back to the login page
+
+header( 'Location: index.php' ) ;
 		
 		} else { // ELSE LOGGED IN			
 					
