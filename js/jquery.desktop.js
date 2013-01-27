@@ -69,10 +69,6 @@ var JQD = (function($, window, document, undefined) {
           suffix = 'PM';
         }
 
-        // Convert to 12-hour.
-        if (hour > 12) {
-          hour = hour - 12;
-        }
         else if (hour === 0) {
           // Display 12:XX instead of 0:XX.
           hour = 12;
@@ -84,7 +80,7 @@ var JQD = (function($, window, document, undefined) {
         }
 
         // Build two HTML strings.
-        var clock_time = weekday + ' ' + hour + ':' + minute + ' ' + suffix;
+        var clock_time = weekday + ' ' + hour + ':' + minute;
         var clock_date = month + ' ' + day + ', ' + year;
 
         // Shove in the HTML.
