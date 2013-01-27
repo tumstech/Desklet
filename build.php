@@ -16,8 +16,9 @@ $system_uvid="00001-00011-32100-00127"; // Universal Version IDentifier
 $DeskletFusionEnabled="1"; //Enable Desklet Fusion Features
 
 /* Development mode hardswitches. Use this for dev purposes only! */
-$system_devmodeenabled="1"; // Is this still in development? turn on dev mode!
-$system_buildstatus="1"; // Build Code Status (0 nightly, 1 alpha, 2 beta, 3 preview, 4 release)
+$system_ispreview="0" // Is this a preview version? - Will be overridden by Dev Mode
+$system_devmodeenabled="1"; // Is this still in development? turn on dev mode! - overrides "preview" version
+$system_buildstatus="1"; // Build Code Status (0 nightly, 1 alpha, 2 beta) - will be ignored if dev mode is OFF
 $system_debugmodeenabled="0"; // Turn on debug mode for web apps? (not implemented yet)
 
 /* ================================================ */
@@ -31,10 +32,8 @@ $OSDebug_debugmodeenabled="0";
 
 /* 
 enable kernel terminal
-This option enables the Desklet system to directly communicate with the server's shell.
+This option enables the Desklet system to directly communicate with the server's shell (with user's input)
 It is recommended to turn it off for production environments, as this may pose security threat.
-
-Note that the code for this part may be detected as a virus, but it's not. It's just a PHP Shell, with login and security.
 
 */
 $OSDebug_enablekernelterminal="0";
@@ -43,4 +42,13 @@ $OSDebug_enablekernelterminal="0";
 $OSDebug_enablephpinfowindow="0";
 
 
+/* OS Kernel Configs */
+
+/*
+enable kernel communication
+This option enables Desklet to directly communicate to the server's shell, or terminal.
+Note that this option does not enable the "Web Terminal", user does not have the permission to freely type commands.
+*/
+
+$OSKernel_enablekernelcomm="1";
 ?>
