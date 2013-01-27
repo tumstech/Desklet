@@ -18,6 +18,6 @@ Features
 
 =======
 
-Default System username/password : default/rainbow
+Default System username/password : Default/rainbow (both are case sensitive!)
 
 The default user is removable by adding a new user, then deleting the default user from the database list.
