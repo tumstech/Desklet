@@ -25,4 +25,8 @@ $keybox_encryptionkey_numeric_16="2594103574298561"; // a 16-bit numeric-only ke
 $keybox_encryptionkey_lowercase_16="a2c5r4g7u6v95d10"; // a 16-bit alphanumeric key, lower case only
 $keybox_encryptionkey_uppercase_16="A2E51F5Q9Z5R30OP"; // a 16-bit alphanumeric key, uppercase only
 
+/*KeyBox key management system */
+
+// Not yet implemented
+
 ?>
