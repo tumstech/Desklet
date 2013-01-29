@@ -65,6 +65,7 @@ var JQD = (function($, window, document, undefined) {
         month = month[date_obj.getMonth()];
 
         // AM or PM?
+// Reserved function for 12-hour clock
         if (hour >= 12) {
           suffix = 'PM';
         }
@@ -86,8 +87,8 @@ var JQD = (function($, window, document, undefined) {
         // Shove in the HTML.
         clock.html(clock_time).attr('title', clock_date);
 
-        // Update every 60 seconds.
-        setTimeout(JQD.init.clock, 60000);
+        // Update every 30 seconds.
+        setTimeout(JQD.init.clock, 30000);
       },
       //
       // Initialize the desktop.
