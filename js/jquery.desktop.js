@@ -146,15 +146,10 @@ var JQD = (function($, window, document, undefined) {
           }
         });
 
-        // Cancel single-click.
-        d.on('mousedown', 'a.icon', function() {
-          // Highlight the icon.
-          JQD.util.clear_active();
-          $(this).addClass('active');
-        });
+ 
 
         // Respond to double-click.
-        d.on('dblclick', 'a.icon', function() {
+        d.on('mousedown', 'a.icon', function() {
           // Get the link's target.
           var x = $(this).attr('href');
           var y = $(x).find('a').attr('href');
