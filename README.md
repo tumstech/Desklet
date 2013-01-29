@@ -22,7 +22,12 @@ Default System username/password : Default/rainbow (both are case sensitive!)
 
 The default user is removable by adding a new user, then deleting the default user from the database list.
 
+
+
+
 =======
+
+Copyright (C) 2013 Namo.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
 EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
@@ -33,7 +38,13 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
+
+
+
+
+
 =======
+
 
 Licenses:
 
