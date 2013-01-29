@@ -1,6 +1,15 @@
 <?
 	include "auth_functions.php";
 	chk_login();
+	
+	// Maybe we want to initialize facebook now?
+	require 'facebook.php';
+	
+	// Set up facebook app information
+	$facebook = new Facebook(array(
+  'appId'  => '[AppID here]',
+  'secret' => '[App Secret Here]',
+));
 ?>
 
 
@@ -10,7 +19,6 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge, chrome=1" />
-<meta name="description" content="JavaScript desktop environment built with jQuery." />
 <!-- iOS web app specifics -->
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="default" />
