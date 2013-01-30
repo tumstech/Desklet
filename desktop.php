@@ -36,7 +36,7 @@ if ($user) {
   } catch (FacebookApiException $e) {
     error_log($e); // Unauthorized
     $user = null;
-
+header( 'Location: index.php' ) ; // Get Out!
   }
 }
 
