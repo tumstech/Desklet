@@ -1,6 +1,6 @@
 <?
 	include "auth_functions.php";
-	chk_login();
+
 include "build.php";
 
 // Check if Facebook login option is enabled
@@ -17,17 +17,15 @@ if ($auth_use_facebook == "1") {
   'secret' => '[App Secret Here]',
 ));
 
+// Check for positive Facebook login
+
 } else {
 // Facebook disabled.
 
+chk_login(); // Check regular login
+
 }
-
-	
-
 ?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
