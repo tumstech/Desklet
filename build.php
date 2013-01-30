@@ -1,9 +1,7 @@
 <?php
 
-/* User-level configurations */
-
-$frontend_systemname="Cloud's PC"; // Typically the PC/System name
-$frontend_systemtype="desktop.cloud"; // System Type (desktop.cloud, desktop.local, etc.)
+/* User connection & authorization settings */
+$auth_use_facebook="0"; // Do we need facebook? (enable facebook login?)
 
 /* Build Information file for Desklet */
 
