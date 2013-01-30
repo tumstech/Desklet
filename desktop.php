@@ -19,6 +19,34 @@ if ($auth_use_facebook == "1") {
 
 // Check for positive Facebook login
 
+
+// Get User ID
+$user = $facebook->getUser();
+
+// We may or may not have this data based on whether the user is logged in.
+//
+// If we have a $user id here, it means we know the user is logged into
+// Facebook, but we don't know if the access token is valid. An access
+// token is invalid if the user is logged out of Facebook.
+
+if ($user) {
+  try {
+    // Proceed knowing you have a logged in user who's authenticated.
+    $user_profile = $facebook->api('/me');
+  } catch (FacebookApiException $e) {
+    error_log($e); // Unauthorized
+    $user = null;
+
+  }
+}
+
+// Login or logout url will be needed depending on current user state.
+if ($user) {
+  $FBlogoutUrl = $facebook->getLogoutUrl();
+} else {
+  $FBloginUrl = $facebook->getLoginUrl();
+}
+
 } else {
 // Facebook disabled.
 
