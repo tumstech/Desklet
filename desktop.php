@@ -1,7 +1,13 @@
 <?
 	include "auth_functions.php";
 	chk_login();
-	
+include "build.php";
+
+// Check if Facebook login option is enabled
+if ($auth_use_facebook == "1") {
+
+// We're using facebook!
+
 	// Maybe we want to initialize facebook now?
 	require 'facebook.php';
 	
@@ -10,6 +16,14 @@
   'appId'  => '[AppID here]',
   'secret' => '[App Secret Here]',
 ));
+
+} else {
+// Facebook disabled.
+
+}
+
+	
+
 ?>
 
 
