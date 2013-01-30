@@ -14,7 +14,7 @@ $system_uvid="00001-00011-32100-00127"; // Universal Version IDentifier
 $DeskletFusionEnabled="1"; //Enable Desklet Fusion Features
 
 /* Development mode hardswitches. Use this for dev purposes only! */
-$system_ispreview="0" // Is this a preview version? - Will be overridden by Dev Mode
+$system_ispreview="0"; // Is this a preview version? - Will be overridden by Dev Mode
 $system_devmodeenabled="1"; // Is this still in development? turn on dev mode! - overrides "preview" version
 $system_buildstatus="1"; // Build Code Status (0 nightly, 1 alpha, 2 beta) - will be ignored if dev mode is OFF
 $system_debugmodeenabled="0"; // Turn on debug mode for web apps? (not implemented yet)
