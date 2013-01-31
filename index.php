@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <title>WebDesktop</title>
 <link rel="stylesheet" type="text/css" href="css/login.css">
+<!-- iOS web app specifics -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="viewport" content="user-scalable=no, width=device-width" />
+<!-- end iOS web app specifics -->
 </head>
 
 <body>
